@@ -22,9 +22,9 @@ Steps:
     java -jar saxon9he.jar -s:all_jdbc.xml -xsl:jdbc_list.xsl -o:all_jdbc.html
 
 
-    all_jdbc.xml is the source (-s) xml file that covers all the data sources.
-    jdbc_list.xsl is the XSLT template used (-xsl).
-    all_jdbc.html  is the HTML output (-o) that will be generated.
-    Note: Of course, you can rename your files; but use the same pattern.
+        all_jdbc.xml is the source (-s) xml file that covers all the data sources.
+        jdbc_list.xsl is the XSLT template used (-xsl).
+        all_jdbc.html  is the HTML output (-o) that will be generated.
+        Note: Of course, you can rename your files; but use the same pattern.
 
 
