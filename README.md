@@ -10,11 +10,11 @@ Steps:
 1. Merge all the jdbc xml files into 1 single big file.
 2. Remove the xml headers from the entire file.
 3. Add the xml header row as 1 row only and define the new root element (jdbc_list):
-
-    <?xml version='1.0' encoding='UTF-8'?>
-    <jdbc_list>
-    ...
-    </jdbc_list>
+   
+        <?xml version='1.0' encoding='UTF-8'?>
+        <jdbc_list>
+        ...
+        </jdbc_list>
         
 
 4. Run the script by using the below:
