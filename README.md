@@ -19,7 +19,7 @@ Steps:
 
 4. Run the script by using the below:
 
-java -jar saxon9he.jar -s:all_jdbc.xml -xsl:jdbc_list.xsl -o:all_jdbc.html
+    java -jar saxon9he.jar -s:all_jdbc.xml -xsl:jdbc_list.xsl -o:all_jdbc.html
 
 
     all_jdbc.xml is the source (-s) xml file that covers all the data sources.
